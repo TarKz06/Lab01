@@ -6,7 +6,8 @@ const app = Vue.createApp({
             image: './assets/images/socks_green.jpg',
             url_link: 'https://www.camt.cmu.ac.th',
             inStock : false,
-            inventory : 100
+            inventory : 100,
+            onSale : true
         }
     }
 })
