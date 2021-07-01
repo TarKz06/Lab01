@@ -5,7 +5,7 @@ const app = Vue.createApp({
             discription :'This book is best seller in the world',
             image: './assets/images/socks_green.jpg',
             url_link: 'https://www.camt.cmu.ac.th',
-            inStock : false,
+            inStock : true,
             inventory : 100,
             details: ['50% cotton', '30% woll' , '20% polyester'],
             variants: [
@@ -27,6 +27,9 @@ const app = Vue.createApp({
         },
         updateImage(variantImage){
             this.image = variantImage
+        },
+        checkStatus(){
+            this.inStock = !this.inStock
         }
     }
 })
