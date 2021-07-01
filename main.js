@@ -7,6 +7,7 @@ const app = Vue.createApp({
             url_link: 'https://www.camt.cmu.ac.th',
             inStock : false,
             inventory : 100,
+            details: ['50% cotton', '30% woll' , '20% polyester'],
             onSale : true
         }
     }
