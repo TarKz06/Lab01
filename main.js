@@ -18,7 +18,12 @@ const app = Vue.createApp({
                 "S",
                 "M",
                 "L"
-            ]
+            ],
+        }
+    },
+    methods:{
+        addToCart(){
+            this.cart += 1
         }
     }
 })
